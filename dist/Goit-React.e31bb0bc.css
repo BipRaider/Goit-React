@@ -362,10 +362,32 @@ a, img, main, input, ::after, ::before {
   display: block;
 }
 
-footer, .container-main {
+footer, .container-main, .container-header {
   width: 1200px;
   margin: 0 auto;
   padding: 0;
+}
+
+.wrapper {
+  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 46px;
+  width: 100%;
+}
+
+.container-header {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 1000px;
 }
 
 @media screen and (min-width: 320px) {
