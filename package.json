@@ -1,0 +1,27 @@
+{
+  "name": "Goit-React",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BipRaider/Goit-React.git"
+  },
+  "keywords": [],
+  "author": "Mikhail <Yvdokimod>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BipRaider/Goit-React/issues"
+  },
+  "homepage": "https://github.com/BipRaider/Goit-React#readme"
+}

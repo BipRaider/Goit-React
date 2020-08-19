@@ -1,0 +1,31 @@
+.wrapper{
+  background:-webkit-gradient(
+      linear,
+      left top, left bottom,
+      from($color_wt),
+      to($color_wb)),
+      $wrapper;
+  background:linear-gradient(
+      to bottom,
+      $color_wt,
+      $color_wb),
+      $wrapper;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 46px;
+      width: 100%;
+}
+
+
+
+.container-header{
+  @extend %container;
+  @include list-flex();
+
+  min-height: 1000px;
+}
+
+
+
+
