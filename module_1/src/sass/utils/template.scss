@@ -1,0 +1,58 @@
+// @extend %zero;
+// template  for list  - aligns the elements in the center and direction from top to bottom
+%zero {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  outline: none;
+}
+//it makes block elements
+//@extend %disb;
+%disb {
+  display: block;
+}
+
+//@extend %container;
+%container {
+  width: $con_widht;
+  margin: 0 auto;
+  padding: 0;
+}
+
+// This teplate list pages
+//@extend %list;
+
+// template for title text
+//@extend %title;
+%title {
+  font-family: $ffrb;
+  font-weight: bold;
+  line-height: $lh12;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+//@extend %text;
+%text {
+  font-family: $ffrb;
+  font-weight: 400;
+  line-height: $lh12;
+  text-align: center;
+}
+
+//@extend %button;
+%button {
+  font-size: $fs14;
+  cursor: pointer;
+}
+
+// @extend %footer-input;
+%footer-input {
+  font-size: $fs15;
+  font-family: $ffrb;
+  line-height: $lh16;
+  text-align: left;
+}
