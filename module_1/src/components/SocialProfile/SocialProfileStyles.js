@@ -13,7 +13,7 @@ const mystyle = {
 		list-style: none;
 		border-radius: 4px;
 		background-color: rgb(255, 255, 255);
-		box-shadow: 0px 1px 3px 0px rgba(191, 205, 222, 1);
+		box-shadow: 0px 1px 3px 0px rgba(1, 1, 222, 1);
 	`,
 	Description: styled.div`margin-bottom: 25px;`,
 	Name: styled.p`

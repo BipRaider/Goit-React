@@ -13,6 +13,7 @@ body {
 		'Helvetica Neue', sans-serif;
 	width: 100%;
 	height: 100%;
+	background-color: rgba(226, 224, 224, 0.171);
 }
 body,
 div,
@@ -60,4 +61,14 @@ input,
 //@extend %disb;
 %disb {
 	display: block;
+}
+
+.link_item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-size: 1.3em;
+	color: rgb(24, 25, 95);
 }

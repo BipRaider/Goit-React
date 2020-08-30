@@ -4,19 +4,18 @@
 import styled from 'styled-components';
 
 const mystyle = {
-	Section: styled.section`
+	Sections: styled.section`
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		padding: 0;
 		margin: 0 auto;
-		width: 100%;
-		height: 100%;
+		width: 50%;
+		height: auto;
 		list-style: none;
-		outline: 1px solid black;
 	`,
-	Title: styled.section`font-size: 2em;`
+	Title: styled.h2`font-size: 2em;`
 };
 
 export default mystyle;

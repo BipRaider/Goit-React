@@ -4,10 +4,10 @@ import SS from './SectionStyles';
 
 function Section({ title, children }) {
 	return (
-		<SS.Section>
+		<SS.Sections>
 			<SS.Title> {title}</SS.Title>
 			{children}
-		</SS.Section>
+		</SS.Sections>
 	);
 }
 
