@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Goit-React/static/css/main.d13d49cc.chunk.css",
+    "main.js": "/Goit-React/static/js/main.2d426637.chunk.js",
+    "main.js.map": "/Goit-React/static/js/main.2d426637.chunk.js.map",
+    "runtime-main.js": "/Goit-React/static/js/runtime-main.f2f8d8cd.js",
+    "runtime-main.js.map": "/Goit-React/static/js/runtime-main.f2f8d8cd.js.map",
+    "static/js/2.9912dd50.chunk.js": "/Goit-React/static/js/2.9912dd50.chunk.js",
+    "static/js/2.9912dd50.chunk.js.map": "/Goit-React/static/js/2.9912dd50.chunk.js.map",
+    "index.html": "/Goit-React/index.html",
+    "precache-manifest.f5470ea391dcad6fb5636cd2cbeb6a53.js": "/Goit-React/precache-manifest.f5470ea391dcad6fb5636cd2cbeb6a53.js",
+    "service-worker.js": "/Goit-React/service-worker.js",
+    "static/css/main.d13d49cc.chunk.css.map": "/Goit-React/static/css/main.d13d49cc.chunk.css.map",
+    "static/js/2.9912dd50.chunk.js.LICENSE.txt": "/Goit-React/static/js/2.9912dd50.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2f8d8cd.js",
+    "static/js/2.9912dd50.chunk.js",
+    "static/css/main.d13d49cc.chunk.css",
+    "static/js/main.2d426637.chunk.js"
+  ]
+}
